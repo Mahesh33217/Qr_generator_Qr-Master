@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<style>
+    /* CSS styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 15px;
+        text-align: start;
+    }
+
+    header h1 {
+        margin: 0;
+        margin-left: 40px;
+    }
+
+    nav {
+        background-color: #333;
+        padding: 3px;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        /* margin:  10px; */
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    section {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        box-shadow: #fefaf5;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    #btn:hover {
+        background-color: #0056b3;
+    }
+
+    img {
+        width: 100%; 
+        height: 33rem; 
+        max-width: 100%; 
+    }
+
+    a {
+        font-size: 20px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1><i class="fas fa-search"></i> QR Master</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="../html/contact.html">Contact</a>
+        <a href="#btn">Generate QR</a>
+        <a href="../html/about.html">About Us</a>
+    </nav>
+</header>
+
+<img src="../img/vecteezy_set-poster-of-scan-code-qr-and-icons_.jpg" width="100%" height="100%" alt="">
+
+<a href="../html/index.html"><button id="btn" style="margin-left: 38rem; padding: 25px;" >Generate QR Code</button></a>
+
+<footer>
+    <p>&copy; 2024  QR Master. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
