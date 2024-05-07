@@ -28,7 +28,13 @@ QR Master is a simple web application for generating QR codes. It provides an ea
 ![logo](output1.png)
 ![logo](output2.png)
 
+## deployed on
+[QR Master](qr-master.vercel.app)
+
+
 <p align='center'>Visitors Count <br><img align="center" alt="Repo Visitors" src="https://profile-counter.glitch.me/Qr_generator_Qr-Master/count.svg"/></p>
+
+
 
 
 
